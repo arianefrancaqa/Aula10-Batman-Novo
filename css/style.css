@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400;1,500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.descontos {
+    background-color:#1CD1B0;
+    height:40px;
+    color:#000000;
+    padding-top:10px;
+    padding-left: 10px;
+    width:100%;
+
+}
+
+.super-herois {
+    background-color: #00669F;
+    color:#000000;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    height:70px;
+}
+
+.container-pai {
+    display:flex;
+    gap:30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom:20px;
+       
+}
+
+.card-container {
+    background-color:#E5E5E5;
+    width: 374px;
+    height:600px;
+    position: relative;
+
+}
+
+img.background {
+    width: 374px;
+    height: 217.81px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.heart {
+    position:absolute;
+    top:10px;
+    left:20px;
+
+}
+
+img.batman {
+    border-radius: 100%;
+    position: absolute;
+    left: 130px;
+    top: 150px;
+    width: 135.43px;
+    height: 133.17px;
+  }
+  
+
+.descricao {
+    text-align:justify;
+    padding:30px;
+    
+}
+
+.titulo {
+    text-align:center;
+    margin-top:80px;
+    font-size: 25px;
+}
+
+.botao {
+    width:150px;
+    height:50px;
+    background-color:#00669F;
+    left: 100px;
+    justify-content: center;
+}
+
+.footer {
+    height:50px;
+    background-color:#00669F;
+    color:#FFF9F9;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
