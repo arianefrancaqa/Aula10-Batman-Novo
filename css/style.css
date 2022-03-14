@@ -40,6 +40,8 @@
     background-color:#E5E5E5;
     width: 374px;
     height:600px;
+    display:flex;
+    flex-direction: column;
     position: relative;
 
 }
@@ -70,6 +72,7 @@ img.batman {
 .descricao {
     text-align:justify;
     padding:30px;
+    flex-grow: 1;
     
 }
 
@@ -83,8 +86,8 @@ img.batman {
     width:150px;
     height:50px;
     background-color:#00669F;
-    left: 100px;
-    justify-content: center;
+          align-self: center;
+          margin-bottom: 30px;
 }
 
 .footer {
