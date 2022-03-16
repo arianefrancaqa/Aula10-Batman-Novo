@@ -141,13 +141,20 @@ footer {
 
   h1 {
     font-size: 3rem;
-    display: flex;
-    text-align: center;
   }
 
   .super-herois {
     display: flex;
-    height: 4rem;
+    height: 4.5rem;
     width: 100%;
+    justify-content: center;
+  }
+
+  .descricao {
+    font-size: 1.5rem;
+  }
+  
+  .titulo {
+    font-size: 2.3rem;
   }
 }
